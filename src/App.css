@@ -1,0 +1,32 @@
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.counter{
+  width: 250px;
+}
+
+.value{
+  padding: 20px;
+  border: 4px solid black;
+  border-radius: 6px;
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+button{
+  background: none;
+	color: inherit;
+	border: 4px solid black;
+	padding: 10px;
+	cursor: pointer;
+  border-radius: 6px;
+  width: 70px;
+}
