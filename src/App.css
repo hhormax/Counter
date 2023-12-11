@@ -1,3 +1,7 @@
+*{
+  background-color: #e6fddd;
+}
+
 .wrapper{
   display: flex;
   justify-content: center;
@@ -6,19 +10,21 @@
 }
 
 .counter{
-  width: 250px;
+  width: 400px;
 }
 
 .value{
   padding: 20px;
   border: 4px solid black;
   border-radius: 6px;
+  text-align: center;
+  font-size: 100px;
 }
 
 .buttons{
   display: flex;
   justify-content: space-between;
-  margin-top: 20px;
+  margin-top: 5px;
 }
 
 button{
@@ -28,5 +34,12 @@ button{
 	padding: 10px;
 	cursor: pointer;
   border-radius: 6px;
-  width: 70px;
+  width: 130px;
+  font-size: 40px;
+}
+
+button:hover{
+  color: #e6fddd;
+  background-color: black;
+  transition: 300ms;
 }
